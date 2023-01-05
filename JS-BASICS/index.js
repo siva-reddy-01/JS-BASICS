@@ -935,8 +935,198 @@ function sum(...items) {
 
 console.log(circle.area);  */
 
+//*********let & const*************
+/*var myName='Max';
+console.log(myName);
 
-                                        // ***THANK YOU***
+myName='Manu';
+console.log(myName); */
+
+/*const myName='Max';
+console.log(myName);
+
+myName='Manu';
+console.log(myName); */
+
+//Arrow Functions
+/*function printMyName(name){
+    console.log(name);
+}
+printMyName('Max'); 
+
+const printMyName=(name)=>{
+    console.log(name);
+}
+printMyName('Manu');  
+
+const printMyName= name =>{  //if there is one argument no need to put brackets
+    console.log(name);
+}
+
+printMyName('Max');  
+
+const printMyName=(name,age)=>{
+    console.log(name,age);
+}
+printMyName('Max',22);  
+
+const multiply=(number)=>{
+    return number*2;
+}
+
+console.log(multiply(2));  
+
+const multiply=(number)=> number*2;
+console.log(multiply(2));  */
+
+//***************Exports & Imports(Modules)****************
+/*export default person
+
+import person from './person';
+import prs from './person';   */  //choose name as you wish
+
+/*export const base=10;
+
+import {base} from './utlitily';
+import {base as bs} from './utlitily';  */
+
+//**************Understanding Classes******************
+/*class Person{
+     name='Max';  //poperty
+     call=()=>{}; //Method
+}
+
+const myPerson = new Person()
+myPerson.call();
+
+console.log(myPerson.name);  //usage of constructor functions any one?
+
+class Person extends Master //Inheritance  */
+
+/*class Human{
+
+    constructor() {
+        this.gender='male';
+    }
+    printGender() {
+        console.log(this.gender);
+    }
+
+}
+
+class Person extends Human{
+    constructor(){
+        super();
+        this.name='Shiva';
+    }
+    printMyName() {
+        console.log(this.name);
+    }
+}
+
+const person=new Person();
+person.printMyName();
+person.printGender();   */
+
+//***************Classes, Methods & Constructors********************
+
+/*class Human{
+    gender='male';
+
+    printGender=()=>{
+        console.log(this.gender);
+    }
+}
+
+class Person extends Human{
+    name='shiva';
+
+    printMyName=()=>{
+        console.log(this.name);
+    }
+}
+
+const person =new Person();
+person.printMyName();
+person.printGender();  */
+
+//**************Spread & Rest Operators******************
+
+/*const numbers=[1,2,3];
+const newNumbers=[...numbers,4,5];  //Spread Operators
+console.log(newNumbers); */
+
+/*const Person={
+    name:'siva'
+
+};
+
+const newPerson={
+    ...Person,
+    age:'22'
+}
+
+console.log(newPerson); */
+
+//*******Destructuring*************
+
+/*const numbers=[1,2,3];
+[num1,num2]=numbers;
+[num1, ,num2]=numbers;
+console.log(num1,num2); */
+
+//************************Reference & Primitive Types*****************************
+/*const number=1;
+const num2=number;  //copying of the varabile..
+console.log(num2);  */
+
+/*const Person={
+
+    name:'siva'
+
+};
+
+const secondPerson=Person;
+console.log(secondPerson);  
+
+const Person={
+
+    name:'siva'
+
+};
+
+const secondPerson=Person;
+Person.name='Siva Reddy';
+console.log(secondPerson);  */
+
+//****************Refreshing Array Functions*******************
+/*const numbers=[1,2,3,4];
+const doubleNumArray=numbers.map((num)=>{
+    return num*2;
+});
+
+console.log(numbers);
+console.log(doubleNumArray); */
+
+
+                                      // ****************Thank You***************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
